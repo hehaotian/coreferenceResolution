@@ -33,12 +33,11 @@ if __name__ == "__main__":
         SentencePair.append(nltk.wordpunct)
 
         if len(sent_pair) == 2:
-            HobbsAlgorithms(sent_pair, parser)
-            SentencePair = []
+            sent_1 = parser.nbest_parse(SentencePair[0], 1)
+            sent_2 = parser.nbest_parse(SentencePair[1], 1)
+            if sent_1 and sent_2:
+                treeToString = str(sent_1)
+                print sent_1.pprint(margin=500) + '\n'
+                print '\n'
 
     sentences.close()
-
-
-def HobbsAlgorithms(SentencePair, parser):
-    sent_1 = parser.nbest_parse(SentencePair[0])
-    sent_2 = parser.nbest_parse(SentencePair[1])

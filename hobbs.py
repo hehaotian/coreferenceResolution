@@ -40,5 +40,5 @@ if __name__ == "__main__":
 
 
 def HobbsAlgorithms(SentencePair, parser):
-    sent_1 = parser.nbest_parse(SentencePair[0], 1)
-    
+    sent_1 = parser.nbest_parse(SentencePair[0])
+    sent_2 = parser.nbest_parse(SentencePair[1])

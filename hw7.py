@@ -9,7 +9,6 @@ Created on Thu Mar 18 17:25:09 2014
 
 import nltk
 import sys
-import nltk.tokenize import RegexpTokenizer
 
 if __name__ == "__main__":
 
@@ -28,14 +27,13 @@ if __name__ == "__main__":
         if sent == "":
             continue
 
-        tokenizer = RegexpTokenizer('\w+|\$[\d\.]+|\S+')
-        sent = tokenizer.tokenize(sent)
-        SentencePair.append(nltk.wordpunct)
+        sent = nltk.tokenize.wordpunct_tokenize(sent)
+        SentencePair.append(sent)
 
-        if len(sent_pair) == 2:
+        if len(SentencePair) == 2:
             sent_1 = parser.nbest_parse(SentencePair[0], 1)
             sent_2 = parser.nbest_parse(SentencePair[1], 1)
-            if sent_1 and sent_2:
+            if len(sent_1) == 1 and len(sent_2) == 1:
                 treeToString = str(sent_1)
                 print sent_1.pprint(margin=500) + '\n'
                 print '\n'

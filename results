@@ -1,14 +1,16 @@
-i) They (TOP[] (S[] (NP[] (Nom[] (NNS[] Scientists))) (VP[] (VBD[] rescued) (NP[] (Det[] a) (Nom[] (Nom[] (NN[] mouse)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system)))))) (PUNC[] .)))(TOP[] (S[] (NP[] (PRP[] They)) (VP[] (VP[] (VP[] (VBD[] published) (NP[] (Det[] the) (Nom[] (NN[] research)))) (ADVP[] (Adv[] today))) (ADVP[] (Adv[] online))) (PUNC[] .)))
+i) They(TOP[] (S[] (NP[] (Nom[] (NNS[] Scientists))) (VP[] (VBD[] rescued) (NP[] (Det[] a) (Nom[] (Nom[] (NN[] mouse)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system)))))) (PUNC[] .)))(TOP[] (S[] (NP[] (PRP[] They)) (VP[] (VP[] (VP[] (VBD[] published) (NP[] (Det[] the) (Nom[] (NN[] research)))) (ADVP[] (Adv[] today))) (ADVP[] (Adv[] online))) (PUNC[] .)))
 A) (TOP[] (S[] (NP[] (Nom[] (NNS[] Scientists))) (VP[] (VBD[] rescued) (NP[] (Det[] a) (Nom[] (Nom[] (NN[] mouse)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system)))))) (PUNC[] .)))
 A) (TOP[] (S[] (NP[] (PRP[] They)) (VP[] (VP[] (VP[] (VBD[] published) (NP[] (Det[] the) (Nom[] (NN[] research)))) (ADVP[] (Adv[] today))) (ADVP[] (Adv[] online))) (PUNC[] .)))
 B) (S[] (NP[] (Nom[] (NNS[] Scientists))) (VP[] (VBD[] rescued) (NP[] (Det[] a) (Nom[] (Nom[] (NN[] mouse)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system)))))) (PUNC[] .))
 B) (NP[] (Nom[] (NNS[] Scientists)))
+B) (NP[] (Det[] a) (Nom[] (Nom[] (NN[] mouse)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system)))))
 C) Reject - Number
 C) Accept
+C) Reject - Number
 D) (NP[] (Nom[] (NNS[] Scientists)))
 E) Correct
 
-i) They (TOP[] (S[] (NP[] (Det[] The) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] response)))) (VP[] (AUX[] (AuxZ[] is)) (VP[] (VBN[] alerted) (PP[] (Prep[] by) (NP[] (Nom[] (ADJP[] (Adj[] dendritic)) (Nom[] (NNS[] cells))))))) (PUNC[] .)))(TOP[] (S[] (NP[] (PRP[] They)) (VP[] (VP[] (VBP[] capture) (NP[] (Nom[] (ADJP[] (Adj[] infected)) (Nom[] (NNS[] cells))))) (Conj[] and) (VP[] (VBP[] display) (NP[] (Nom[] (Nom[] (NNS[] fragments)) (PP[] (Prep[] of) (NP[] (Det[] the) (Nom[] (NN[] pathogen)))))))) (PUNC[] .)))
+i) They(TOP[] (S[] (NP[] (Det[] The) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] response)))) (VP[] (AUX[] (AuxZ[] is)) (VP[] (VBN[] alerted) (PP[] (Prep[] by) (NP[] (Nom[] (ADJP[] (Adj[] dendritic)) (Nom[] (NNS[] cells))))))) (PUNC[] .)))(TOP[] (S[] (NP[] (PRP[] They)) (VP[] (VP[] (VBP[] capture) (NP[] (Nom[] (ADJP[] (Adj[] infected)) (Nom[] (NNS[] cells))))) (Conj[] and) (VP[] (VBP[] display) (NP[] (Nom[] (Nom[] (NNS[] fragments)) (PP[] (Prep[] of) (NP[] (Det[] the) (Nom[] (NN[] pathogen)))))))) (PUNC[] .)))
 A) (TOP[] (S[] (NP[] (Det[] The) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] response)))) (VP[] (AUX[] (AuxZ[] is)) (VP[] (VBN[] alerted) (PP[] (Prep[] by) (NP[] (Nom[] (ADJP[] (Adj[] dendritic)) (Nom[] (NNS[] cells))))))) (PUNC[] .)))
 A) (TOP[] (S[] (NP[] (PRP[] They)) (VP[] (VP[] (VBP[] capture) (NP[] (Nom[] (ADJP[] (Adj[] infected)) (Nom[] (NNS[] cells))))) (Conj[] and) (VP[] (VBP[] display) (NP[] (Nom[] (Nom[] (NNS[] fragments)) (PP[] (Prep[] of) (NP[] (Det[] the) (Nom[] (NN[] pathogen)))))))) (PUNC[] .)))
 B) (S[] (NP[] (Det[] The) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] response)))) (VP[] (AUX[] (AuxZ[] is)) (VP[] (VBN[] alerted) (PP[] (Prep[] by) (NP[] (Nom[] (ADJP[] (Adj[] dendritic)) (Nom[] (NNS[] cells))))))) (PUNC[] .))
@@ -20,32 +22,48 @@ C) Accept
 D) (NP[] (Nom[] (ADJP[] (Adj[] dendritic)) (Nom[] (NNS[] cells))))
 E) Correct
 
-i) They (TOP[] (S[] (NP[] (Nom[] (NNS[] Scientists))) (VP[] (VBD[] rescued) (NP[] (Det[] a) (Nom[] (Nom[] (NN[] mouse)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system)))))) (PUNC[] .)))(TOP[] (S[] (NP[] (PRP[] They)) (VP[] (VBD[] restored) (NP[] (Nom[] (Nom[] (NN[] immunity)) (PP[] (Prep[] in) (NP[] (Nom[] (NNS[] mice)))))) (PP[] (Prep[] with) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] weak)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system))))))) (PUNC[] .)))
+i) They(TOP[] (S[] (NP[] (Nom[] (NNS[] Scientists))) (VP[] (VBD[] rescued) (NP[] (Det[] a) (Nom[] (Nom[] (NN[] mouse)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system)))))) (PUNC[] .)))(TOP[] (S[] (NP[] (PRP[] They)) (VP[] (VBD[] restored) (NP[] (Nom[] (Nom[] (NN[] immunity)) (PP[] (Prep[] in) (NP[] (Nom[] (NNS[] mice)))))) (PP[] (Prep[] with) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] weak)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system))))))) (PUNC[] .)))
 A) (TOP[] (S[] (NP[] (Nom[] (NNS[] Scientists))) (VP[] (VBD[] rescued) (NP[] (Det[] a) (Nom[] (Nom[] (NN[] mouse)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system)))))) (PUNC[] .)))
 A) (TOP[] (S[] (NP[] (PRP[] They)) (VP[] (VBD[] restored) (NP[] (Nom[] (Nom[] (NN[] immunity)) (PP[] (Prep[] in) (NP[] (Nom[] (NNS[] mice)))))) (PP[] (Prep[] with) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] weak)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system))))))) (PUNC[] .)))
 B) (S[] (NP[] (Nom[] (NNS[] Scientists))) (VP[] (VBD[] rescued) (NP[] (Det[] a) (Nom[] (Nom[] (NN[] mouse)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system)))))) (PUNC[] .))
 B) (NP[] (Nom[] (NNS[] Scientists)))
+B) (NP[] (Det[] a) (Nom[] (Nom[] (NN[] mouse)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system)))))
 C) Reject - Number
 C) Accept
+C) Reject - Number
 D) (NP[] (Nom[] (NNS[] Scientists)))
 E) Correct
 
-i) They (TOP[] (S[] (NP[] (Nom[] (NNS[] Scientists))) (VP[] (VBD[] restored) (NP[] (Nom[] (Nom[] (Nom[] (NN[] immunity)) (PP[] (Prep[] in) (NP[] (Nom[] (NNS[] mice))))) (PP[] (Prep[] with) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] weak)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system))))))))) (PUNC[] .)))(TOP[] (S[] (NP[] (PRP[] They)) (VP[] (VBD[] injected) (NP[] (PRP[] them)) (PP[] (Prep[] with) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] live)) (Nom[] (NN[] vaccine)))))) (PUNC[] .)))
+i) They(TOP[] (S[] (NP[] (Nom[] (NNS[] Scientists))) (VP[] (VBD[] restored) (NP[] (Nom[] (Nom[] (Nom[] (NN[] immunity)) (PP[] (Prep[] in) (NP[] (Nom[] (NNS[] mice))))) (PP[] (Prep[] with) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] weak)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system))))))))) (PUNC[] .)))(TOP[] (S[] (NP[] (PRP[] They)) (VP[] (VBD[] injected) (NP[] (PRP[] them)) (PP[] (Prep[] with) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] live)) (Nom[] (NN[] vaccine)))))) (PUNC[] .)))
 A) (TOP[] (S[] (NP[] (Nom[] (NNS[] Scientists))) (VP[] (VBD[] restored) (NP[] (Nom[] (Nom[] (Nom[] (NN[] immunity)) (PP[] (Prep[] in) (NP[] (Nom[] (NNS[] mice))))) (PP[] (Prep[] with) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] weak)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system))))))))) (PUNC[] .)))
 A) (TOP[] (S[] (NP[] (PRP[] They)) (VP[] (VBD[] injected) (NP[] (PRP[] them)) (PP[] (Prep[] with) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] live)) (Nom[] (NN[] vaccine)))))) (PUNC[] .)))
 B) (S[] (NP[] (Nom[] (NNS[] Scientists))) (VP[] (VBD[] restored) (NP[] (Nom[] (Nom[] (Nom[] (NN[] immunity)) (PP[] (Prep[] in) (NP[] (Nom[] (NNS[] mice))))) (PP[] (Prep[] with) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] weak)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system))))))))) (PUNC[] .))
 B) (NP[] (Nom[] (NNS[] Scientists)))
+B) (NP[] (Nom[] (Nom[] (Nom[] (NN[] immunity)) (PP[] (Prep[] in) (NP[] (Nom[] (NNS[] mice))))) (PP[] (Prep[] with) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] weak)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system))))))))
+B) (NP[] (Nom[] (NNS[] mice)))
+B) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] weak)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system)))))
 C) Reject - Number
 C) Accept
+C) Accept
+C) Reject - Number
 D) (NP[] (Nom[] (NNS[] Scientists)))
+D) (NP[] (Nom[] (NNS[] mice)))
 E) Correct
+E) Wrong
+F2) (NP[] (Nom[] (NNS[] mice))) is not correct because (1) for grammatical role, the saliency hierarchy of Subject is higher than the object; (2) for verb roles, the verb “inject” indicates the pronoun should refer to a person, rather than an animal.
 
-i) They (TOP[] (S[] (NP[] (Nom[] (NNS[] Scientists))) (VP[] (VBD[] restored) (NP[] (Nom[] (Nom[] (Nom[] (NN[] immunity)) (PP[] (Prep[] in) (NP[] (Nom[] (NNS[] mice))))) (PP[] (Prep[] with) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] weak)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system))))))))) (PUNC[] .)))(TOP[] (S[] (NP[] (PRP[] They)) (VP[] (AUX[] (AuxZ[] were)) (VP[] (VBN[] compromised) (PP[] (Prep[] by) (NP[] (Nom[] (NN[] sepsis)))))) (PUNC[] .)))
+i) They(TOP[] (S[] (NP[] (Nom[] (NNS[] Scientists))) (VP[] (VBD[] restored) (NP[] (Nom[] (Nom[] (Nom[] (NN[] immunity)) (PP[] (Prep[] in) (NP[] (Nom[] (NNS[] mice))))) (PP[] (Prep[] with) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] weak)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system))))))))) (PUNC[] .)))(TOP[] (S[] (NP[] (PRP[] They)) (VP[] (AUX[] (AuxZ[] were)) (VP[] (VBN[] compromised) (PP[] (Prep[] by) (NP[] (Nom[] (NN[] sepsis)))))) (PUNC[] .)))
 A) (TOP[] (S[] (NP[] (Nom[] (NNS[] Scientists))) (VP[] (VBD[] restored) (NP[] (Nom[] (Nom[] (Nom[] (NN[] immunity)) (PP[] (Prep[] in) (NP[] (Nom[] (NNS[] mice))))) (PP[] (Prep[] with) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] weak)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system))))))))) (PUNC[] .)))
 A) (TOP[] (S[] (NP[] (PRP[] They)) (VP[] (AUX[] (AuxZ[] were)) (VP[] (VBN[] compromised) (PP[] (Prep[] by) (NP[] (Nom[] (NN[] sepsis)))))) (PUNC[] .)))
 B) (S[] (NP[] (Nom[] (NNS[] Scientists))) (VP[] (VBD[] restored) (NP[] (Nom[] (Nom[] (Nom[] (NN[] immunity)) (PP[] (Prep[] in) (NP[] (Nom[] (NNS[] mice))))) (PP[] (Prep[] with) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] weak)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system))))))))) (PUNC[] .))
 B) (NP[] (Nom[] (NNS[] Scientists)))
+B) (NP[] (Nom[] (Nom[] (Nom[] (NN[] immunity)) (PP[] (Prep[] in) (NP[] (Nom[] (NNS[] mice))))) (PP[] (Prep[] with) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] weak)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system))))))))
+B) (NP[] (Nom[] (NNS[] mice)))
+B) (NP[] (Det[] a) (Nom[] (ADJP[] (Adj[] weak)) (Nom[] (ADJP[] (Adj[] immune)) (Nom[] (NN[] system)))))
+C) Accept
 C) Reject - Number
 C) Accept
-D) (NP[] (Nom[] (NNS[] Scientists)))
+C) Reject - Number
+E) Wrong
 E) Correct
+F2) (NP[] (Nom[] (NNS[] Scientists))) is not correct because, for verb roles, the verb ‘compromise’ and the past participle tense indicates the pronoun should refer to ‘mice’

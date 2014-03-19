@@ -22,15 +22,15 @@ def printfunc(sent_pair):
     pron = get_pron(str(s_2))
     proposed_nodes = []
     case = None
-        for x in s_1.subtrees():
-            temp = x.node.__repr__()[:2]            
-            if temp == 'S[':
-                proposed_nodes.append((x,case))
-            elif temp == 'NP':
-                parent = x.parent().node.__repr__()[:2]                
-                if parent == 'VP':
-                    case= 'ACC'               
-                proposed_nodes.append((x,case))
+    for x in s_1.subtrees():
+        cur = x.node.__repr__()[:2]            
+        if cur == 'S[':
+            proposed_nodes.append((x,case))
+        elif cur == 'NP':
+            parent = x.parent().node.__repr__()[:2]                
+            if parent == 'VP':
+                case= 'acc'               
+            proposed_nodes.append((x,case))
 
     print "i) " + pron + s_1.pprint(margin=500) + s_2.pprint(margin=500)
     print "A) " + s_1.pprint(margin=500) 
@@ -45,6 +45,11 @@ def get_pron(s):
             pron = tokens[i + 1]
             break
     return pron[:-3]
+
+def proposed_print(proposed_nodes):
+    for proposed_node in proposed_nodes:
+        if proposed_node[1] != 'acc':
+            print "B) " + proposed_node[0].pprint(margin=500)
 
 if __name__ == "__main__":
     if (len(sys.argv) >= 2):
